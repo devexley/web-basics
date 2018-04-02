@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: auto;
+  padding: auto;
+}
+
+body {
+  width:  100%;
+}
+
+.container {
+  width: 98%;
+}
+
+h1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+
+#header-nav {
+  background-color: #f6b319;
+  margin-bottom: auto;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin-top: -5px;
+  margin-bottom: -5px;
+}
+
+.navbar-header {
+ margin-bottom: auto;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 {
+  font-family: 'Helvetica', serif;
+  color: #557c3e;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: auto;
+  margin-bottom: auto;
+  line-height: .25;
+  width: 100%;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+p {
+  box-sizing: content-box;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  padding: 10px 25px;
+  font-family: Helvetica;
+}
+
+
+
+#btn-style {
+  background-color: rgb(0, 0, 255);
+  border: 2px solid black;
+  padding: auto;
+
+}
+
+
+#collapsable-nav {
+  clear: both;
+  background-color: rgb(100, 100, 250);
+  width: 100%;
+  margin-top: 0px;
+  height: auto;
+  margin-bottom: -2px;
+
+}
+
+
+div ul li{
+  font-family: 'Helvetica';
+  font-size: 2.5em;
+  margin: auto;
+  padding: auto;
+  color: white; 
+}
+
+hr {
+
+ margin-top: 10px;
+ margin-bottom: 10px;
+ height: 2px;
+ width: 100%;
+ border-top: 4px solid black;
+
+}
+
+
+.navbar-default .button .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+
+.boxer {
+  box-sizing: border-box;
+  margin-right: auto;
+  height: 700px;
+
+}
+
+#chicken {
+  background-color: rgb(100, 250, 125);
+
+
+
+}
+
+#beef {
+  background-color: rgb(100, 125, 255);
+
+
+}
+
+#sushi {
+  background-color: rgb(250, 150, 125);
+
+
+
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+.col-md-12 {
+  width: 100%;
+  }
+}
+
